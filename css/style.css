@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-brand {
+    margin-left: 2em;
+}
+.same{
+    border: 2px solid red;
+    height: auto;
+    padding: 1em;
+    background: rgba(187, 182, 182, 0.25);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 0px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.text-center{
+    margin: 0.5em;
+}
+
+body{
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    padding: 1em;
+    height: auto;
+    width: 100%;
+    background-color: aqua;
+}
+.nav-link{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+
+.text{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+p{
+    padding: 0.5em;
+    text-align: justify;
+}
+
+@media screen and (min-width: 992px) {
+    .one{
+        float: left;
+        width: 30%;
+        margin: 1em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .one{
+        float: left;
+        width: 48%;
+        margin: 0.5em;
+    }
+    .two{
+        width: 97%;
+        margin: 1em;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 800px){
+    .one{
+        float: left;
+        width: 47%;
+        margin: 0.5em;
+    }
+    .two{
+        width: 95%;
+        margin: 1em;
+    }
+}
+@media screen and (max-width: 767px){
+    .one{
+        width: 95%;
+        margin: 1em;
+    }
+}
